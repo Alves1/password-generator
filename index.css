@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;800&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+    background: #1C1C1C;
+    line-height: 0.95;
+}
+
+#container {
+    width: 550px;
+    height: 550px;
+    background: #1F2937;
+    margin: 50px auto;
+    border: 3px solid lightgreen;
+    border-radius: 15px;
+}
+hr {
+    border-bottom: 1px solid #2F3E53;
+    margin: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+#subtitle {
+    color: #D5D4D8;
+    font-size: 20px;
+}
+
+#title-section {
+    padding: 100px 52px;
+    width: 446px;
+}
+
+#title-one {
+    color: white;
+}
+
+#title-two {
+    color: #4ADF86;
+}
+
+#password {
+    width: 191px;
+    height: 42px;
+    border: none;
+    margin: 36px 0;
+    background: #10B981;
+    color: white;
+    border-radius: 7px;
+    
+}
+button#password:hover {
+    opacity: 0.8;
+}
+
+input {
+    border: none;
+    border-radius: 6px;
+    margin-right: 24px;
+    width: 200px;
+    height: 39px;
+    background: #273549;
+    text-align: center;
+    color: #55F991;
+    
+}
+
+#input-section {
+    display: flex;
+    margin: 35px 0;
+    text-align: center;
+}
+/* 
+#copy1 {
+    border: none;
+    margin: 0 25px;
+    padding: 5px 10px;
+    background: #03400d;
+    color: #55F991;
+    border-radius: 6px;
+}
+
+#copy2 {
+    border: none;
+    padding: 5px 10px;
+    background: #03400d;
+    color: #55F991;
+    border-radius: 6px;
+} */
